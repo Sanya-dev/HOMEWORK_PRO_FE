@@ -300,7 +300,7 @@ input[type="submit"]{
     width: 40%;
 }
 
-
+/* Start media */
 @media (max-width:660px) {
     nav button{
         display: none;
