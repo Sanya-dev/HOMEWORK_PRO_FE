@@ -46,12 +46,12 @@ const render = () => {
 
 
         //Проверяем введен сайт или просто рандомные слова или цифры
-        let pattern = /^(http|https|ftp):\/\/[a-z0-9\-_]+\.[a-z0-9\-_]+\.[a-z0-9\-_]+\/?.*$/i;
-        if(pattern.test(img) === false){
-            picture.innerText = 'Это картинка не прошла нашу проверку или Вы вставили не ссылку на картинку.'
-            picture.style.backgroundImage = ''
-            picture.classList.add('not-picture')
-        }
+        // let pattern = /^(http|https|ftp):\/\/[a-z0-9\-_]+\.[a-z0-9\-_]+\.[a-z0-9\-_]+\/?.*$/i;
+        // if(pattern.test(img) === false){
+        //     picture.innerText = 'Это картинка не прошла нашу проверку или Вы вставили не ссылку на картинку.'
+        //     picture.style.backgroundImage = ''
+        //     picture.classList.add('not-picture')
+        // }
         //////////////////////////////////////////////////////////////////////////////////////
 
         cardElem.addEventListener('dblclick', () => {
