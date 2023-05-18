@@ -1,0 +1,21 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    border: 1px solid black;
+    position: relative;
+    overflow: hidden;
+}
+.deleteElem{
+    position: absolute;
+    top: -17px;
+    right: 0;
+    border: 1px solid red;
+    text-align: center;
+    padding: 5px;
+}
+.deleteElem:hover{
+    background-color: red;
+    color: azure;
+    cursor: pointer;
+}
